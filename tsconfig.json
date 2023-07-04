@@ -8,7 +8,7 @@
     "skipLibCheck": true,
 
     "types":[
-      "node"
+      "node","jest"
     ],
 
     /* Bundler mode */
