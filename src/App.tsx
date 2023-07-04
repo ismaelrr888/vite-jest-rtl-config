@@ -3,8 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+
+
 function App() {
   const [count, setCount] = useState(0)
+  console.log(process.env.VITE_MY_VARIABLE)
+  // console.log(import.meta.env)
+  // console.log(import.meta.env.MODE)
+  // console.log(import.meta.env.VITE_MY_VARIABLE)
 
   return (
     <>
